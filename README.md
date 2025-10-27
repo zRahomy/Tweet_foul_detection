@@ -1,3 +1,9 @@
+# **Assignment by Abdulalrahman Husham A Razzaq Alabbas**
+
+# **StudentID:1905983**
+
+
+
 ## **Tweet foul detection**
 
 This is a university project for an assignment which provide a binary classifier for tweets, where 1 is foul/offensive and 0 is proper.
@@ -8,6 +14,7 @@ It uses a fastapi and supports 3 models with different thresholds: low, medium a
 
 
 ## **Folder structure**
+
 
 
 tweet\_foul\_detection\\
