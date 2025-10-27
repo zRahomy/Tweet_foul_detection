@@ -1,4 +1,4 @@
-\#Tweet foul detection
+## **Tweet foul detection**
 
 This is a university project for an assignment which provide a binary classifier for tweets, where 1 is foul/offensive and 0 is proper.
 It uses a fastapi and supports 3 models with different thresholds: low, medium and high.
@@ -7,7 +7,9 @@ It uses a fastapi and supports 3 models with different thresholds: low, medium a
 
 
 
-\#folder structure
+## **Folder structure**
+
+
 tweet\_foul\_detection\\
 app.py				#FastAPI API
 
@@ -25,7 +27,7 @@ tweet\_foul\_detection\\tests\\
 
 tweet\_foul\_detection\\data\\
 
- 	labled\_data.csv			#Dataset
+ 	labeled\_data.csv			#Dataset
 
 tweet\_foul\_detection\\model\_artifacts\\
 
@@ -39,7 +41,7 @@ tweet\_foul\_detection\\model\_artifacts\\
 
 
 
-\#Running locally using python:
+## Running locally using python:
 
 
 
@@ -77,7 +79,7 @@ http://localhost:8000/docs
 
 
 
-\#example: {
+example: {
 
   "label": 0,      #1 for foul/offensive, 0 for proper
 
@@ -91,7 +93,7 @@ http://localhost:8000/docs
 
 
 
-\#Running on cmd
+## Running on cmd
 
 1-Install Dependencies using the following code in cmd:
 
@@ -117,7 +119,7 @@ curl -X POST "http://localhost:8000/predict" \\
 
  
 
-\#Testing locally
+## Testing locally
 
 
 
@@ -133,7 +135,7 @@ You should see: 3 passed in X.XXs
 
 
 
-\#Running with docker on your own machine
+## Running with docker on your own machine
 
 1-Build the Docker image using:
 
@@ -183,7 +185,19 @@ http://localhost:8000/docs
 
 
 
-\#Running the app on the cloud:
+## Testing on docker
+
+
+
+Just run the following code:
+
+docker run --rm tweet-foul-detection pytest
+
+
+
+
+
+## Running the app on the cloud:
 
 
 
@@ -193,7 +207,7 @@ https://tweet-foul-detection.onrender.com/docs
 
 
 
--Test the app by:
+-Test the app simply by opening the url of any browser
 
 -Press on POST /predict
 
@@ -221,5 +235,5 @@ https://tweet-foul-detection.onrender.com/docs
 
 }
 
-
+## 
 
